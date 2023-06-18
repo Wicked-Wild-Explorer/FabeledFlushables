@@ -344,7 +344,25 @@ footer > ul li a {
       justify-content: space-around;
  }
   }
+
+@media (max-width: 428px) {
+  #nav-bar ul {
+    flex-direction: column;
+    align-items: center;
+  }
   
+  #nav-bar ul li {
+    margin-bottom: 10px;
+  }
+  
+  #nav-bar ul li a {
+    width: auto;
+  }
+  
+  #nav-bar ul li:last-child {
+    margin-bottom: 0;
+  }
+}
 .ri-seedling{ 
      color: #ffe415;
 }
