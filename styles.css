@@ -278,11 +278,14 @@ footer > ul li a {
       margin: 0 auto;
     }
   }
-@media (max-width: 480px) {
+@media (max-width: 428px) {
     .logo > img {
-
-        justify-content: center; 
+justify-content: center; 
+max-width: 428px;
     }
+    nav ul{ 
+        justify-conntent: center; 
+        max-width: 428px; 
   }
   @media (max-width: 550px) {
     #features .desc {
