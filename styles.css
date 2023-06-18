@@ -344,6 +344,12 @@ footer > ul li a {
     flex-direction: column;
     align-items: center;
   }
+        ol > li{ 
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: row;
+    }
 }
 
 /* Other existing styles... */
