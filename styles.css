@@ -344,7 +344,9 @@ footer > ul li a {
     flex-direction: column;
     align-items: center;
   }
-        ol > li{ 
+}
+     @media (max-width: 800px) {    
+    ol > li{ 
         margin-right: 25px;
         display: flex;
         flex-direction: column;
