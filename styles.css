@@ -359,7 +359,11 @@ footer > ul li a {
       margin-bottom: 10px;
     }
   }
-
+@media (max-width: 428px) {
+  #about {
+    padding-bottom: 75%; /* Adjust the aspect ratio as needed */
+  }
+}
 /* Other existing styles... */
 
 .ri-seedling{ 
