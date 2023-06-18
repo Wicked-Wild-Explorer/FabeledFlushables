@@ -283,10 +283,11 @@ footer > ul li a {
 justify-content: center; 
 max-width: 428px;
     }
-    nav ul{ 
+ nav ul{ 
         justify-conntent: center; 
         max-width: 428px; 
-  }
+ }
+}
   @media (max-width: 550px) {
     #features .desc {
       width: 100%;
