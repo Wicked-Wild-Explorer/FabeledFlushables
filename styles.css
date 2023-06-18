@@ -349,7 +349,7 @@ footer > ul li a {
   #nav-bar ul {
     flex-direction: column;
     align-items: center;
-      justify-content: center; 
+    justify-content: center; 
   }
   
   #nav-bar ul li {
@@ -366,8 +366,9 @@ footer > ul li a {
 }
 @media (max-width: 480px) {
   .form form input:last-child {
-    width: 80%;
+    width: 100%;
     font-size: 16px;
+      max-width: 430px;
   }
 }
 .ri-seedling{ 
