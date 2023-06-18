@@ -278,6 +278,12 @@ footer > ul li a {
       margin: 0 auto;
     }
   }
+@media (max-width: 480px) {
+    .logo > img {
+      margin: 0 auto;
+        justify-content: center; 
+    }
+  }
   @media (max-width: 550px) {
     #features .desc {
       width: 100%;
