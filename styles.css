@@ -282,10 +282,18 @@ footer > ul li a {
     .logo > img {
 justify-content: center; 
 max-width: 428px;
+         width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
     }
  nav ul{ 
         justify-conntent: center; 
         max-width: 428px; 
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
  }
 }
   @media (max-width: 550px) {
