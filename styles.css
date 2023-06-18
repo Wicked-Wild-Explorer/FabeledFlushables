@@ -356,6 +356,16 @@ footer > ul li a {
     #form{ 
         margin-bottom: -50px;
     } 
+    .form form input:last-child{ 
+    margin-bottom: 20px; 
+    background-color: navajowhite;
+    padding: 4px 20px;
+    width: 40%; 
+    font-weight: bold;
+    font-size: 18px; 
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 4px;
+    }
 }
   
   #nav-bar ul li {
