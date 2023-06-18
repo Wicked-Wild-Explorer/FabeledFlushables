@@ -278,24 +278,7 @@ footer > ul li a {
       margin: 0 auto;
     }
   }
-@media (max-width: 428px) {
-    .logo > img {
-justify-content: center; 
-max-width: 428px;
-         width: 100%;
-      text-align: center;
-      padding: 0;
-      height: 150px;
-    }
- nav ul{ 
-        justify-conntent: center; 
-        max-width: 428px; 
-      width: 100%;
-      text-align: center;
-      padding: 0;
-      height: 150px;
- }
-}
+
   @media (max-width: 550px) {
     #features .desc {
       width: 100%;
@@ -370,6 +353,10 @@ max-width: 428px;
     align-items: center;
     justify-content: center;
   }
+    #form{ 
+        margin-bottom: -50px;
+    } 
+}
   
   #nav-bar ul li {
     margin-bottom: 5px;
@@ -382,6 +369,22 @@ max-width: 428px;
   #nav-bar ul li:last-child {
     margin-bottom: 0;
   }
+}
+@media (max-width: 428px) {
+    .logo > img {
+justify-content: center; 
+max-width: 100%;
+        margin: 0 auto; 
+         width: 100%;
+      text-align: center;
+      padding: 0;
+      height: auto;
+    }
+ nav ul{ 
+        justify-content: center;  
+     flex-direction: column;
+     align-items: center; 
+ }
 }
 .ri-seedling{ 
      color: #ffe415;
